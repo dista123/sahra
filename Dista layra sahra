@@ -1,0 +1,43 @@
+
+public class Biodata {
+    public static void main(String[] args) {
+        String namaLengkap = "Angga Prasetya";
+        String namaPanggilan = "Angga";
+        int umur = 15;
+        float tinggiBadan = 168.5F;
+        double beratBadan = 65.5;
+        String kotaKelahiran = "Malang";
+        char jenisKelamin = 'L';
+        boolean isMarried = false;
+        boolean isWNI = true;
+
+        // Tugas 2
+        double beratBadanSaya = 56;
+        double tinggiBadanSaya = 160;
+        double uangDiDompet = 30000;
+        double uangDiRekening = 2100000000;
+        double nilaiInvestasi = 30000000000.0;
+        double jarakSekolahRumah = 5.5;
+
+        // Proses pencetakan biodata
+        System.out.println("Biodata:");
+        System.out.println("Nama Lengkap: " + namaLengkap);
+        System.out.println("Nama Panggilan: " + namaPanggilan);
+        System.out.println("Umur: " + umur);
+        System.out.println("Tinggi Badan: " + tinggiBadan + " cm");
+        System.out.println("Berat Badan: " + beratBadan + " kg");
+        System.out.println("Kota Kelahiran: " + kotaKelahiran);
+        System.out.println("Jenis Kelamin: " + jenisKelamin);
+        System.out.println("Sudah Menikah: " + isMarried);
+        System.out.println("WNI: " + isWNI);
+
+        // Proses pencetakan variabel numerik
+        System.out.println("\nVariabel Numerik:");
+        System.out.println("Berat Badan Saya: " + beratBadanSaya + " kg");
+        System.out.println("Tinggi Badan Saya: " + tinggiBadanSaya + " cm");
+        System.out.println("Uang di Dompet: Rp. " + uangDiDompet);
+        System.out.println("Uang di Rekening: Rp. " + uangDiRekening);
+        System.out.println("Nilai Investasi: Rp. " + nilaiInvestasi);
+        System.out.println("Jarak Sekolah ke Rumah: " + jarakSekolahRumah + " km");
+    }
+}
